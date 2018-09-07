@@ -312,7 +312,7 @@
             var values = "name=" + name + "&email=" + email + " &msg=" + msg;
             $.ajax({
                 type: "POST",
-                url: "mail.php",
+                url: "https://formspree.io/albalmeo@gmail.com",
                 data: values,
                 success: function() {
                     $('#name').val('');
