@@ -332,8 +332,7 @@
     overflow: hidden;
     max-width: 100%;
 }
-.abt-content{}
-.section-title{}
+
 .section-title h2{
         font-size: 29px;
     letter-spacing: 0;
@@ -492,8 +491,32 @@
 *=============================================*/
 
 /*============================================
-* 5. Fortfolio Area
+* 5. Portfolio Area
 *=============================================*/
+.project-text {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.portfolio-button{
+    background-color: #202020;
+    color: white;
+}
+
+.portfolio-button:hover {
+    background-color: #555555;
+    color: white;
+}
 .fortfolio-area{
     position: relative;
 }
